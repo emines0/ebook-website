@@ -7,6 +7,20 @@
     background-size: cover;
 }
 
+.navbar {
+    transition: all 0.5s ease;
+}
+
+.navbar-sticky {
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba($color: #000000, $alpha: 0.5);
+}
+
+// .hero {
+//     height: 100vh;
+// }
+
+// Media queries
 @media (max-width: 1000px) {
     .hero .image-container {
         display: flex;
